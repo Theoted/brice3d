@@ -3,16 +3,24 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: theodeville <theodeville@student.42.fr>    +#+  +:+       +#+        */
+/*   By: tdeville <tdeville@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 09:45:20 by theodeville       #+#    #+#             */
-/*   Updated: 2022/10/27 12:02:07 by theodeville      ###   ########.fr       */
+/*   Updated: 2022/11/01 12:12:57 by tdeville         ###   ########lyon.fr   */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "./includes/brice3d.h"
 
-
+void    create_rays(t_data *data)
+{
+    t_vector2_d origin = {
+        data->win_width / 2,
+        data->win_height / 2
+    };
+    
+    
+}
 
 t_vector2_f dda(t_data *data, t_ray *ray)
 {
